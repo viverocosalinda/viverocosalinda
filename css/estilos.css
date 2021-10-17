@@ -40,17 +40,9 @@ header {
     position: relative;
 }
 
-nav {
-    width: 100%;
-    position: fixed;
+nav{
     text-align: right;
-    padding: 30px 50px 10px 0;
-    background: #892be2da;
-    text-align: center;
-    z-index: 100;
-    float: left;
-
-
+    padding: 30px 50px 0 0;
 }
 
 nav>a {
@@ -62,10 +54,9 @@ nav>a {
 
 }
 
-nav>a:hover {
-    text-decoration: none;
+nav > a:hover{
+    text-decoration: underline;
 }
-
 
 header .textos-header {
     display: flex;
@@ -374,7 +365,7 @@ footer {
     }
 
     .textos-header h1 {
-        font-size: 35px;
+        font-size: 100px;
     }
 
     .textos-header h2 {
@@ -550,3 +541,4 @@ textarea {
     background: #fefefe;
     border-color: #125688;
 }
+
